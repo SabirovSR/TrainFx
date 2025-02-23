@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="150.0" prefWidth="350.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.processoremulatorfx.Controllers.AddTrainViewController">
+   <children>
+      <Button fx:id="addTrainType" layoutX="10.0" layoutY="75.0" mnemonicParsing="false" onAction="#addTrainType" prefHeight="25.0" prefWidth="326.0" text="Добавить вагон" />
+      <Label layoutX="14.0" layoutY="14.0" text="Тип вагона">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="12.0" text="№" />
+      <Label layoutX="205.0" layoutY="12.0" text="Pwr" />
+      <ComboBox fx:id="ComboBoxTrain" layoutX="10.0" layoutY="39.0" prefHeight="25.0" prefWidth="107.0" />
+      <TextField fx:id="NumbTrain" layoutX="125.0" layoutY="39.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField fx:id="Power" layoutX="189.0" layoutY="39.0" prefHeight="25.0" prefWidth="52.0" />
+      <Button fx:id="addTrain" layoutX="10.0" layoutY="111.0" mnemonicParsing="false" onAction="#addTrain" prefHeight="25.0" prefWidth="326.0" text="Добавить поезд" />
+      <Label layoutX="275.0" layoutY="12.0" prefHeight="17.0" prefWidth="37.0" text="Товар" />
+      <TextField fx:id="Cargo" layoutX="251.0" layoutY="39.0" prefHeight="25.0" prefWidth="86.0" />
+   </children>
+</Pane>
