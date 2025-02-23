@@ -1,4 +1,4 @@
-package org.example.processoremulatorfx.TypeWagon;
+package org.example.trainfx.TypeWagon;
 
 public interface TypeWagon {
 

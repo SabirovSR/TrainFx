@@ -1,6 +1,6 @@
-package org.example.processoremulatorfx;
+package org.example.trainfx;
 
-import org.example.processoremulatorfx.Models.*;
+import org.example.trainfx.Models.*;
 
 public interface IObserver {
     void event(TrainModel e);

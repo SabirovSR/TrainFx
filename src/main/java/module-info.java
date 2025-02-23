@@ -1,4 +1,4 @@
-module org.example.processoremulatorfx {
+module org.example.trainfx {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,14 +6,14 @@ module org.example.processoremulatorfx {
     requires com.dlsc.formsfx;
   requires jdk.jfr;
 
-  opens org.example.processoremulatorfx to javafx.fxml;
-    exports org.example.processoremulatorfx;
-    exports org.example.processoremulatorfx.Controllers;
-    opens org.example.processoremulatorfx.Controllers to javafx.fxml;
-  exports org.example.processoremulatorfx.Models;
-  opens org.example.processoremulatorfx.Models to javafx.fxml;
-  exports org.example.processoremulatorfx.BModels;
-  opens org.example.processoremulatorfx.BModels to javafx.fxml;
-    exports org.example.processoremulatorfx.TypeWagon;
-    opens org.example.processoremulatorfx.TypeWagon to javafx.fxml;
+  opens org.example.trainfx to javafx.fxml;
+    exports org.example.trainfx;
+    exports org.example.trainfx.Controllers;
+    opens org.example.trainfx.Controllers to javafx.fxml;
+  exports org.example.trainfx.Models;
+  opens org.example.trainfx.Models to javafx.fxml;
+  exports org.example.trainfx.BModels;
+  opens org.example.trainfx.BModels to javafx.fxml;
+    exports org.example.trainfx.TypeWagon;
+    opens org.example.trainfx.TypeWagon to javafx.fxml;
 }

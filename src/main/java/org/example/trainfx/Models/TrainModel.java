@@ -1,9 +1,9 @@
-package org.example.processoremulatorfx.Models;
+package org.example.trainfx.Models;
 
-import org.example.processoremulatorfx.IObserver;
-import org.example.processoremulatorfx.TypeWagon.Locomotive;
-import org.example.processoremulatorfx.TypeWagon.TypeWagon;
-import org.example.processoremulatorfx.TypeWagon.Wagon;
+import org.example.trainfx.IObserver;
+import org.example.trainfx.TypeWagon.Locomotive;
+import org.example.trainfx.TypeWagon.TypeWagon;
+import org.example.trainfx.TypeWagon.Wagon;
 
 import java.util.ArrayList;
 import java.util.Iterator;

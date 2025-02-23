@@ -1,4 +1,4 @@
-package org.example.processoremulatorfx.TypeWagon;
+package org.example.trainfx.TypeWagon;
 
 public class Locomotive implements TypeWagon{
     private int maxWagons; // Максимальное количество вагонов, которые может сдвинуть тягач

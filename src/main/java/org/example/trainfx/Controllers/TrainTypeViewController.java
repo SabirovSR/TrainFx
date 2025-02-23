@@ -1,9 +1,9 @@
-package org.example.processoremulatorfx.Controllers;
+package org.example.trainfx.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import org.example.processoremulatorfx.Models.TrainModel;
-import org.example.processoremulatorfx.TypeWagon.TypeWagon;
+import org.example.trainfx.Models.TrainModel;
+import org.example.trainfx.TypeWagon.TypeWagon;
 
 public class TrainTypeViewController {
   TrainModel trainModel;

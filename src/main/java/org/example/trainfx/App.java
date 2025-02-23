@@ -1,4 +1,4 @@
-package org.example.processoremulatorfx;
+package org.example.trainfx;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

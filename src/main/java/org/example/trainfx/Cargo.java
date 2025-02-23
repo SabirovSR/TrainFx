@@ -1,4 +1,4 @@
-package org.example.processoremulatorfx;
+package org.example.trainfx;
 
 // Класс описывающий товары
 public class Cargo {

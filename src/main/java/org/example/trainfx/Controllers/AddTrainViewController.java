@@ -1,14 +1,14 @@
-package org.example.processoremulatorfx.Controllers;
+package org.example.trainfx.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
-import org.example.processoremulatorfx.BModels.BTrainsModel;
-import org.example.processoremulatorfx.Cargo;
-import org.example.processoremulatorfx.TypeWagon.Locomotive;
-import org.example.processoremulatorfx.Models.TrainModel;
-import org.example.processoremulatorfx.Models.TrainsModel;
-import org.example.processoremulatorfx.TypeWagon.Wagon;
+import org.example.trainfx.BModels.BTrainsModel;
+import org.example.trainfx.Cargo;
+import org.example.trainfx.TypeWagon.Locomotive;
+import org.example.trainfx.Models.TrainModel;
+import org.example.trainfx.Models.TrainsModel;
+import org.example.trainfx.TypeWagon.Wagon;
 
 public class AddTrainViewController {
   TrainsModel trainsModel = BTrainsModel.build();

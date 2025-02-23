@@ -1,15 +1,15 @@
-package org.example.processoremulatorfx.Controllers;
+package org.example.trainfx.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
-import org.example.processoremulatorfx.*;
-import org.example.processoremulatorfx.BModels.BTrainsModel;
-import org.example.processoremulatorfx.Models.TrainModel;
-import org.example.processoremulatorfx.Models.TrainsModel;
-import org.example.processoremulatorfx.TypeWagon.TypeWagon;
+import org.example.trainfx.*;
+import org.example.trainfx.BModels.BTrainsModel;
+import org.example.trainfx.Models.TrainModel;
+import org.example.trainfx.Models.TrainsModel;
+import org.example.trainfx.TypeWagon.TypeWagon;
 
 import java.io.IOException;
 
