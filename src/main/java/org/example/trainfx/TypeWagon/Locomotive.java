@@ -2,10 +2,10 @@ package org.example.trainfx.TypeWagon;
 
 public class Locomotive implements TypeWagon{
     private int maxWagons; // Максимальное количество вагонов, которые может сдвинуть тягач
-
     public Locomotive(int maxWagons) {
         this.maxWagons = maxWagons;
     }
+
 
     public int getMaxWagons() {
         return maxWagons;

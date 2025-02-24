@@ -14,7 +14,7 @@
       </Label>
       <Label layoutX="144.0" layoutY="12.0" text="№" />
       <Label layoutX="205.0" layoutY="12.0" text="Pwr" />
-      <ComboBox fx:id="ComboBoxTrain" layoutX="10.0" layoutY="39.0" prefHeight="25.0" prefWidth="107.0" />
+      <ComboBox fx:id="ComboBoxWagon" layoutX="10.0" layoutY="39.0" prefHeight="25.0" prefWidth="107.0" />
       <TextField fx:id="NumbTrain" layoutX="125.0" layoutY="39.0" prefHeight="25.0" prefWidth="52.0" />
       <TextField fx:id="Power" layoutX="189.0" layoutY="39.0" prefHeight="25.0" prefWidth="52.0" />
       <Button fx:id="addTrain" layoutX="10.0" layoutY="111.0" mnemonicParsing="false" onAction="#addTrain" prefHeight="25.0" prefWidth="326.0" text="Добавить поезд" />

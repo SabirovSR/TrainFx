@@ -4,52 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f83e7fb-85ab-4f25-bfa3-c7d28ae62571" name="Changes" comment="Реализация системы классов, для хранения и визуализации паровозных составов">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BTrainsModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/AddTrainViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/TrainTypeViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/TrainViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/TrainModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/TrainsModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/TypeWagon/Locomotive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/TypeWagon/TypeWagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/TypeWagon/Wagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/AddTrainView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/TrainTypeView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/TrainView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="0f83e7fb-85ab-4f25-bfa3-c7d28ae62571" name="Changes" comment="правка названия пакетов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BCpuModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BExecuterModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BProgramModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/AddCommandViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/CommandViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ConsoleViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MainViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MemoryViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProcessorEmulatorViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProgramStatusViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/RegistersViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/StatisticsViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/ICpu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/IObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/CpuModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/ExecuterModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/ProgramModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/MainView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/AddCommandView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/CommandView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/ConsoleView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/InfoView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/MemoryView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/ProcessorEmulatorView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/ProgramStatusView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/RegistersView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/processoremulatorfx/Views/StatisticsView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trainfx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trainfx/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trainfx/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trainfx/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trainfx/Controllers/AddTrainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trainfx/Controllers/AddTrainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/trainfx/TypeWagon/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/trainfx/TypeWagon/Locomotive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/trainfx/Views/AddTrainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/trainfx/Views/AddTrainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +38,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SabirovSR/ProcessorEmulatorFx.git&quot;,
-    &quot;accountId&quot;: &quot;ffcf7475-f476-425f-b353-d1d8632cc3f4&quot;
+    &quot;url&quot;: &quot;https://github.com/SabirovSR/TrainFx.git&quot;,
+    &quot;accountId&quot;: &quot;1f984cee-bdf3-43aa-aeae-504611b0bcb6&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -99,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/repos/Git/TrainFx/src/main/resources/org/example/processoremulatorfx/Views",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/repos/Git/ProcessorEmulatorFx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\repos\Git\TrainFx\src\main\resources\org\example\processoremulatorfx\Views" />
@@ -158,6 +119,10 @@
       <workItem from="1740317829529" duration="1331000" />
       <workItem from="1740319236287" duration="11273000" />
       <workItem from="1740339585087" duration="14163000" />
+      <workItem from="1740354400405" duration="286000" />
+      <workItem from="1740354696894" duration="20000" />
+      <workItem from="1740419189068" duration="514000" />
+      <workItem from="1740419777113" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="Создание проекта Fx">
       <option name="closed" value="true" />
@@ -191,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740353758523</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="правка названия пакетов">
+      <option name="closed" value="true" />
+      <created>1740354677667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740354677667</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +185,7 @@
     <MESSAGE value="Создание проекта Fx" />
     <MESSAGE value="Реализация визуального интерфейса для эмулятора процессора" />
     <MESSAGE value="Реализация системы классов, для хранения и визуализации паровозных составов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализация системы классов, для хранения и визуализации паровозных составов" />
+    <MESSAGE value="правка названия пакетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="правка названия пакетов" />
   </component>
 </project>

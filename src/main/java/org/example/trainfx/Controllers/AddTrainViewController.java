@@ -15,7 +15,7 @@ public class AddTrainViewController {
 
   @FXML
   void addTrainType() {
-    if (ComboBoxTrain.getValue() == null
+    if (ComboBoxWagon.getValue() == null
             || NumbTrain.getText() == null) {
       System.out.println("Error: Choose train type");
       return;
@@ -28,7 +28,7 @@ public class AddTrainViewController {
     }
 
     try {
-      switch (ComboBoxTrain.getValue().toString()) {
+      switch (ComboBoxWagon.getValue().toString()) {
         case "Locomotive":
           trainsModel.getTrainByIndex(Integer.parseInt(NumbTrain.getText())-1).addLocomotive(new Locomotive(Integer.parseInt(Power.getText())));
           break;
@@ -37,7 +37,6 @@ public class AddTrainViewController {
           break;
       }
     }
-
     catch (Exception e){
       System.out.println("Error: " + e.getMessage());
     }
@@ -49,7 +48,7 @@ public class AddTrainViewController {
   }
 
   @FXML
-  ComboBox ComboBoxTrain;
+  ComboBox ComboBoxWagon;
 
   @FXML
   TextField NumbTrain;
@@ -61,18 +60,18 @@ public class AddTrainViewController {
   @FXML
   void initialize()
   {
-    ComboBoxTrain.getItems().addAll("Locomotive", "Wagon");
+    ComboBoxWagon.getItems().addAll("Locomotive", "Wagon");
 
     Power.setDisable(true);
     Cargo.setDisable(true);
 
-    ComboBoxTrain.setOnAction(event -> {
-      String selectedTrain = (String) ComboBoxTrain.getValue();
+    ComboBoxWagon.setOnAction(event -> {
+      String selectedWagon = (String) ComboBoxWagon.getValue();
       Cargo.setText("");
       Power.setText("");
 
-      Cargo.setDisable(selectedTrain.equals("Locomotive"));
-      Power.setDisable(!selectedTrain.equals("Locomotive"));
+      Cargo.setDisable(selectedWagon.equals("Locomotive"));
+      Power.setDisable(!selectedWagon.equals("Locomotive"));
     });
   }
 }
